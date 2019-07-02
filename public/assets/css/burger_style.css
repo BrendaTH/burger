@@ -1,0 +1,33 @@
+.jumbotron {
+  min-height: 300px;
+  margin-top:20px;
+  background-image: url("../img/burger.jpg");
+  background-size: cover;
+  /* background-size: auto 100%;  fits the height but maybe not the width */
+  /* background-size: 100% 100%; */ /* height and width but not the aspect ration */
+  /* background-size: auto; */
+  /* background-position: center center; */
+  /* background-position: center top; */
+  background-position: center bottom;
+}
+
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  padding: 5px;
+  margin: 5px;
+  background: #dfd59d;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
